@@ -1,0 +1,30 @@
+body{
+    padding: 0px;
+    margin: 0pc;
+}
+.banner{
+    background-image: url("bannerhe.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10em 10em;
+   text-align: center;
+   height: 90vh;
+    line-height: 50px;
+    width: auto;
+}
+.booty h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+/* content */
+.content-content{
+    padding: 5em 5em;
+}
+
+@media only screen and (max-width:700px) {
+    .banner {
+        padding: 20px ;
+        line-height: normal;
+    }
+}
